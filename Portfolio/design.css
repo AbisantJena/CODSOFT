@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1a1a1a;
+    color: #e6e6e6;
+}
+
+a {
+    color: #e60000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-bottom: 2px solid #e60000;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+}
+
+header .profile img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border: 2px solid #e60000;
+}
+
+header .profile h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #e60000;
+}
+
+header .profile p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #e60000;
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #e60000;
+    border-bottom: 2px solid #e60000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #333;
+    border: 2px solid #e60000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    background-color: #333;
+    padding: 20px;
+    border: 2px solid #e60000;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #e60000;
+}
+
+.project p {
+    font-size: 14px;
+}
+
+/* Resume Section */
+#resume button {
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#resume button:hover {
+    background-color: #cc0000;
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 16px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #e60000;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+form button {
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #cc0000;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b2b2b;
+    border-top: 2px solid #e60000;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #b3b3b3;
+}

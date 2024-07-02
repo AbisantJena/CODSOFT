@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture">
+            <h1>Choudhury Abisant Jena</h1>
+            <p>Prompt Engineer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Speaking about myself, I'm a student with a good understanding of NLP and using AI to generate target specific outcomes, being a student I'm getting to know about the upcoming changes in the IT industry which relies on Gen AI and requires skilled handlers to run it. So progressing more on AI is the current demand !</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">CHATGPT</div>
+            <div class="skill">AI TOOLS</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Calculator</h3>
+                <p>Used HTML, Css and javascript to build a working webpage of a calculator</p>
+            </div>
+            <div class="project">
+                <h3>Landing Page</h3>
+                <p>Used HTML and CSS to create a Landing page based on a Travel Agency</p>
+            </div>
+            <div class="project">
+                <h3>Password Generator</h3>
+                <p>Used HTML, CSS and Javascript to create a password generator that can create stong and complex passwords accouding to the user's preferences</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>
+        <button type="submit">Download</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Choudhury Abisant Jena. All rights reserved.</p>
+    </footer>
+</body>
+</html>
